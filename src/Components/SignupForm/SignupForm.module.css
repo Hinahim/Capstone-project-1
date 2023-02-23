@@ -1,0 +1,131 @@
+.signupcontainer {
+    background-color: black;
+    margin-left: 605px;
+    width: 700px;
+    height: 570px;
+}
+
+.superapp {
+    color: #72DB73;
+    margin: 40px 0 0 260px;
+    font-family: 'Single Day', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.account {
+    margin: 10px 0 0 240px;
+    color: #ffff;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.contactcontainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.email {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #ffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+.line {
+    margin-left: 20px;
+    margin-top: 25px;
+    border-left: 2px solid #72DB73;
+    height: 20px;
+}
+
+.google {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 170px;
+    padding: 10px;
+    width: 360px;
+    margin-bottom: 10px;
+    background: #292929;
+    border-radius: 3.81584px;
+    border-style: none;
+}
+
+.checkboxcontainer {
+    display: flex;
+    justify-content: left;
+
+}
+
+.tick {
+    margin-left: 3px;
+}
+
+.checkboxmsg {
+
+    color: #7C7C7C;
+    font-size: 10px;
+
+
+}
+
+.msg {
+    color: red;
+    margin-left: 180px;
+    margin-top: 0;
+    font-size: 10px;
+}
+
+.register {
+    background-color: #72DB73;
+    border-radius: 28px;
+    width: 380px;
+    padding: 5px;
+    color: #ffff;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+
+
+.terms {
+
+    margin-left: 175px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.conditions {
+    color: #72DB73;
+}
+
+.privacy {
+    margin-left: 175px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+
+.policy {
+    color: #72DB73;
+}

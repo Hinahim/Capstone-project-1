@@ -1,0 +1,70 @@
+.container {
+    position: absolute;
+    width: 845px;
+    height: 1118px;
+    left: 0px;
+    top: 0px;
+    background-image: url("leftbannerimg.png");
+    background-repeat: no-repeat;
+    background-size: 625px 570px;
+}
+
+.heading {
+    position: absolute;
+    width: 337px;
+    height: 28px;
+    left: 30px;
+    top: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 108.69%;
+    /* or 30px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.login {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 300px;
+    top: 43px;
+    border-style: none;
+    background: #72DB73;
+    border-radius: 33px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.bottomheading {
+    position: absolute;
+    width: 550px;
+    height: 143px;
+    left: 30px;
+    top: 410px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.bottomheading2 {
+    position: absolute;
+    width: 550px;
+    height: 143px;
+    left: 30px;
+    top: 450px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
