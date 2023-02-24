@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { useState, useEffect } from 'react';
 import styles from './SignupForm.module.css';
+import { Link } from "react-router-dom";
 
 const SignupForm = () => {
     const [formValues, setFormValues] = useState({ 'name': '', 'username': '', 'email': '', 'mobile': '' })
@@ -100,7 +101,8 @@ const SignupForm = () => {
                     <input type="checkbox" id='c1' className={styles.tick} onChange={handleCheck} />
                     <label for="c1" className={styles.checkboxmsg}> Share my registration data with Superapp</label>
                 </div>
-                {active ? <button className={styles.register} onClick={handleClick}>SIGN UP</button> : <button disabled className={styles.register}>SIGN UP</button>}
+                <Link to="/Onboarding">
+                    {active ? <button className={styles.register} onClick={handleClick}>SIGN UP</button> : <button disabled className={styles.register}>SIGN UP</button>}</Link>
             </form>
             <p className={styles.terms}> By clicking on Sign up. you agree to Superapp<span className={styles.conditions}> Terms and Conditions of Use</span> </p>
             <p className={styles.privacy}> To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp <span className={styles.policy}> Privacy Policy</span> </p>
