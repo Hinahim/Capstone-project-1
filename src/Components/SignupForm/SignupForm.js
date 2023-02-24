@@ -72,25 +72,22 @@ const SignupForm = () => {
             setActive(false)
         }
     }, [formValues, isChecked])
+
     const handleClick = (e) => {
-
-
         setFormValues({ 'name': '', 'username': '', 'email': '', 'mobile': '' })
         setIsChecked(false)
-
-
     }
 
     return (
-        <div className={styles.signupcontainer}>
+        <div className={`${styles.signupcontainer} ${styles.flexcolumn}`}>
             <p className={styles.superapp}> Super app</p>
             <p className={styles.account}> Create your new account</p>
-            <div className={styles.contactcontainer}>
+            <div className={`${styles.flexrow} ${styles.justifycontent}`}>
                 <p className={styles.email}> Email</p>
                 <div className={styles.line}></div>
                 <p className={styles.google}> Google</p>
             </div>
-            <form>
+            <form className={`${styles.flexcolumn} ${styles.padding}`}>
                 <input type="text" placeholder='Name' name='name' onChange={handleChange} />
                 {nameValid ? <p className={styles.msg}>Please enter your name</p> : <></>}
                 <input type="text" placeholder='UserName' name='username' onChange={handleChange} />
@@ -99,7 +96,7 @@ const SignupForm = () => {
                 {emailValid ? <p className={styles.msg}>Please enter your email</p> : <></>}
                 <input type="tel" placeholder="Mobile" name='mobile' maxlength="10" pattern="[0-9]{10}" title='ten digits code' required onChange={handleChange} />
                 {mobileValid ? <p className={styles.msg}>Please enter your mobile number</p> : <></>}
-                <div className={styles.checkboxcontainer}>
+                <div className={styles.flexrow}>
                     <input type="checkbox" id='c1' className={styles.tick} onChange={handleCheck} />
                     <label for="c1" className={styles.checkboxmsg}> Share my registration data with Superapp</label>
                 </div>

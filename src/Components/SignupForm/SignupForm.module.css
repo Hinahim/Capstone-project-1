@@ -1,63 +1,81 @@
 .signupcontainer {
     background-color: black;
-    margin-left: 605px;
-    width: 700px;
-    height: 570px;
+    flex: 1;
+    text-align: center;
+
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%; */
 }
 
 .superapp {
     color: #72DB73;
-    margin: 40px 0 0 260px;
     font-family: 'Single Day', cursive;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .account {
-    margin: 10px 0 0 240px;
+
     color: #ffff;
     letter-spacing: 0.05em;
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
+    margin-bottom: 0;
 
 }
 
-.contactcontainer {
+.flexrow {
     display: flex;
-    justify-content: center;
-
+    flex-direction: row;
 }
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .email {
-    margin-top: 20px;
+    color: #ffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+
+.line {
+
+    border-left: 2px solid #72DB73;
+    height: 20px;
+    margin-top: 25px;
+
+}
+
+.google {
     margin-left: 10px;
     color: #ffff;
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
+
 }
 
-
-.line {
-    margin-left: 20px;
-    margin-top: 25px;
-    border-left: 2px solid #72DB73;
-    height: 20px;
+.justifycontent {
+    justify-content: center;
 }
 
-.google {
-    margin-top: 20px;
-    margin-left: 20px;
-    color: #ffff;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
+.padding {
+    padding-left: 150px;
 }
 
 input {
-    margin-left: 170px;
     padding: 10px;
     width: 360px;
     margin-bottom: 10px;
@@ -66,28 +84,25 @@ input {
     border-style: none;
 }
 
-.checkboxcontainer {
-    display: flex;
-    justify-content: left;
-
-}
-
 .tick {
-    margin-left: 3px;
+    width: 15px;
 }
+
+
+
 
 .checkboxmsg {
 
     color: #7C7C7C;
     font-size: 10px;
-
+    margin-left: 0;
 
 }
 
 .msg {
     color: red;
-    margin-left: 180px;
     margin-top: 0;
+    padding-left: 150px;
     font-size: 10px;
 }
 
@@ -98,32 +113,36 @@ input {
     padding: 5px;
     color: #ffff;
     font-weight: bold;
-    margin-left: 170px;
+
 }
 
 
 
 .terms {
 
-    margin-left: 175px;
-    font-size: 15px;
+
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #7C7C7C;
+    margin-bottom: 0;
+    padding-left: 110px;
 }
 
 .conditions {
     color: #72DB73;
+
 }
 
 .privacy {
-    margin-left: 175px;
-    font-size: 15px;
+
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #7C7C7C;
+    padding-left: 110px;
 }
 
 .policy {

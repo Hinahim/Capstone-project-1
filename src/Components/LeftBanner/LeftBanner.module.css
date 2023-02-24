@@ -1,70 +1,69 @@
 .container {
-    position: absolute;
-    width: 845px;
-    height: 1118px;
-    left: 0px;
-    top: 0px;
     background-image: url("leftbannerimg.png");
     background-repeat: no-repeat;
-    background-size: 625px 570px;
+    flex: 1;
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%; */
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.topleftcontainer {
+    margin-top: 25px;
+    margin-left: 45px;
 }
 
 .heading {
-    position: absolute;
-    width: 337px;
-    height: 28px;
-    left: 30px;
-    top: 25px;
-
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 108.69%;
-    /* or 30px */
 
-    letter-spacing: 0.02em;
-
-    color: #FFFFFF;
 }
 
 .login {
-    position: absolute;
+
     width: 120px;
     height: 30px;
-    left: 300px;
-    top: 43px;
+    margin-top: 10px;
+    margin-left: 20px;
     border-style: none;
     background: #72DB73;
     border-radius: 33px;
     color: #FFFFFF;
     font-weight: bold;
-    letter-spacing: 0.5px;
+
+}
+
+.discover {
+    margin-left: 45px;
+    margin-top: 340px;
 }
 
 .bottomheading {
-    position: absolute;
-    width: 550px;
-    height: 143px;
-    left: 30px;
-    top: 410px;
+
 
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 0;
 }
 
 .bottomheading2 {
-    position: absolute;
-    width: 550px;
-    height: 143px;
-    left: 30px;
-    top: 450px;
-
+    margin-top: 0;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
